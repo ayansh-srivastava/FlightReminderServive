@@ -25,4 +25,5 @@ const createEmail = async (req, res) => {
         console.error(error);
         return res.status(500).json({ error: 'Failed to create email' });
     }}
+
 module.exports = { createEmail };
